@@ -1,0 +1,18 @@
+[project]
+name = "rag-pgvector"
+version = "0.1.0"
+description = "RAG over PDFs with pgvector and LM Studio"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.32",
+    "python-multipart>=0.0.20",
+    "pydantic-settings>=2.6",
+    "psycopg[binary,pool]>=3.2",
+    "pgvector>=0.3.6",
+    "openai>=1.55",
+    "pypdf>=5.1",
+    "langchain-text-splitters>=0.3",
+    "langchain-experimental>=0.3",
+    "langchain-core>=0.3",
+]
