@@ -27,7 +27,7 @@ Open LM Studio → **Developer** tab → load both models → click **Start Serv
 ### 2. Start Postgres
 
 ```bash
-docker compose up -d
+docker-compose up -d
 ```
 
 This launches `pgvector/pgvector:pg17` on `localhost:5432` with credentials `rag` / `rag` and database `rag`. Data persists in the `pgdata` Docker volume.
